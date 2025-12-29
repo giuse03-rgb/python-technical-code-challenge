@@ -65,6 +65,8 @@ services:
     restart: always
     ports:
       - 8082:8080
+    networks:
+      sparkpg_network:
 
 networks:
   sparkpg_network:
